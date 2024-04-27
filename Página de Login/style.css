@@ -55,7 +55,7 @@ header{
 
 .navegacao > a:hover {
     background: rgba(255, 255, 255, 0.322);
-    border-radius: 70px;
+    border-radius: 7px;
     transition-duration: 0.5s;
     padding-top: 3px;
     padding-bottom: 3px;
