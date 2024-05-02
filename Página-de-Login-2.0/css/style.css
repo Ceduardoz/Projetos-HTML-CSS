@@ -58,10 +58,7 @@ header {
     border-radius: 10px;
     transition-duration: 0.5s;
 }
-/*card total*/
-.card-total > h1{
-    max-width: 2px;
-}
+
 .card-cadastro {
     position: relative;
     min-width: 400px;
