@@ -1,0 +1,73 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'criativo';
+    src: url(font/Creativo\ Regular.otf);
+    font-family: 'letters';
+    src: url(font/Letters\ for\ Learners.ttf);
+}
+
+:root {
+    --color0:#E635C2;
+    --color1:#BC35A0;
+    --color2:#8F3A82;
+    --color3:#3DE0E6;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+
+    --font-logo: 'criativo, helvetica, Arial, sans-serif';
+    --font-nav: 'letters, helvetica, Arial, sans-serif';
+    --font-normal: 'Arial, Verdana, Helvetica, sans-serif;'
+}
+
+body{
+    font-family: var(--font-normal);
+    background-color: antiquewhite;
+}
+
+header{
+    background-color: red;
+    width: 100%;
+    height: 110px;
+    margin-bottom: 50px;
+}
+
+.titulo{
+    font-family: var(--font-logo);
+    text-align: center;
+    padding: 23px;
+}
+
+.navegacao{
+    background-color: black;
+    max-width: 100%;
+    height: 20px;
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.navegacao > a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.card-total{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+}
+
+.card-img{
+    display: flex;
+    width: 250px;
+    height: 330px;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+
+}
